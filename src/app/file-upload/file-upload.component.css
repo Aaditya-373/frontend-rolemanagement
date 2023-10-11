@@ -1,0 +1,33 @@
+.main-file-upload {
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-icon {
+    padding: 10px;
+    color: white;
+}
+
+.fa:hover {
+    cursor: pointer;
+    color: grey;
+}

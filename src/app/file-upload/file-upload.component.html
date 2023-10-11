@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="main-file-upload">
+    <div class="upload-icon">
+        <input type="file" (change)="onFileSelected($event)" id="file-input" />
+        <label for="file-input">
+            <i style="font-size:24px" class="fa">Attach File &#xf093;</i>
+
+        </label>
+    </div>
+
+    <button mat-raised-button (click)="onUpload()" style="background-color: green" class="center"><label
+            style="color:white">Upload File</label></button>
+</div>
